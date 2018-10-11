@@ -91,7 +91,7 @@ namespace rdp {
         if (std::isdigit(token)) {
             get_token();
         } else {
-            throw std::logic_error("DIGIT: missing operand :invalid arithmetic expression");
+            throw std::logic_error("DIGIT: missing operand: invalid arithmetic expression");
         }
     }
 }
